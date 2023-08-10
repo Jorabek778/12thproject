@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(194, 226, 253, 0.441);
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header nav {
+    background-color: white;
+}
+.logo {
+    font-size: 28px;
+    color: gold;
+    font-weight: 700;
+}
+.logo span{
+    color: black;
+}
+.logo:hover {
+color: gold;
+}
+.nav-link {
+    font-size: 22px;
+    color: black;
+}
+.mask {
+    position: relative;
+}
+.mask::before {
+ content: "";
+ position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.556);
+}
+.mask-title {
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.mask-title h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.mask-btn {
+    text-transform: uppercase;
+    background-color: gold;
+
+}
+.mask-btn:hover{
+    background-color: rgb(207, 176, 5);
+}
+.mask-black {
+    color: white;
+    border-radius: 5px;
+    margin: 0 0;
+}
+.mask-black i {
+    font-size: 40px;
+}
+.slec1 div{
+    border: 10px solid white;
+}
+.slec1-1 img {
+    width: 50%;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 50%;
+}
